@@ -51,8 +51,8 @@ function App() {
   ];
 
   const archiveData = {
-    TV: { title: "Lost\nfilms\n& games", icon: "/tv_icon.png", list: tvMediaList },
-    Laptop: { title: "Lost\nWeb\n& etc...", icon: "/laptop_icon.png", list: laptopMediaList }
+    TV: { title: "Lost\nfilms\n& games", icon: "./tv_icon.png", list: tvMediaList },
+    Laptop: { title: "Lost\nWeb\n& etc...", icon: "./laptop_icon.png", list: laptopMediaList }
   };
 
   const currentData = archiveData[selectedFurniture];
